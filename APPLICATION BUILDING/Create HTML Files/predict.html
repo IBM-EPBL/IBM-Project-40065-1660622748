@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>disease prediction</title>
+        <style>
+            #a{
+                text-align:left;
+                padding:15px;
+            }
+            a[target=blank]{
+                color:red;
+            }
+            #u{
+                background-image:linear-gradient(blueviolet,darkmagenta);
+                height:100px;
+                width:auto;
+                text-align:center;
+                font-style:oblique;
+                color:azure;
+            }
+            [title=b]{
+                box-shadow:25px black;
+                position:relative;
+                color:azure;
+                background-color:purple;
+                border-radius:30px;
+                font-size:15px;
+                text-align:center;
+                width:100px;
+                height:30px;
+            }
+            [title=n1]{
+                width:500px;
+            }
+            [title=n]{
+                width:510px;
+            }
+        </style>
+    </head>
+    <body> 
+        <div>
+            <h1 id="u">chornic kidney disease</h1>
+            <a id="a" href="/backhome" target="_self"><img src="static/button.jpg" width="50px" height="50px" /></a>
+        </div>
+        <br>
+        <form action="/result" method="post">
+            <center>
+               <select title="n" name="blood_urea" required>
+                    <option value="" disabled selected hidden>select blood_urea is normal or not..</option>
+                    <option value="0">ubnormal</option>
+                    <option value="1">normal</option>
+               </select><br><br>
+               <select title="n" name="blood_glucose_random" required>
+                    <option value="" disabled selected hidden>select blood_glucose_random is normal or not..</option>
+                    <option value="0">ubnormal</option>
+                    <option value="1">normal</option>
+               </select><br><br>
+                <select title="n" name="coronary_artery_disease" required>
+                    <option value="" disabled selected hidden>select coronary artery desease or not..</option>
+                    <option value="0">yes</option>
+                    <option value="1">no</option>
+                </select><br><br>
+                <select title="n" name="anemia" required>
+                    <option value="" disabled selected hidden>select anemia or not..</option>
+                    <option value="0">yes</option>
+                    <option value="1">no</option>
+                </select><br><br>
+                <select title="n" name="pus_cell"required>
+                    <option value="" disabled selected hidden>select pus_cell or not..</option>
+                    <option value="0">yes</option>
+                    <option value="1">no</option>
+                </select><br><br>
+                <select title="n" name="red_blood_cells"required>
+                    <option value="" disabled selected hidden>select red_blood_cells level normal or not..</option>
+                    <option value="0">ubnormal</option>
+                    <option value="1">Normal</option>
+                </select><br><br>
+                <select title="n" name="diabetesmellitus"required>
+                    <option value="" disabled selected hidden>select diabetesmellitus or not..</option>
+                    <option value="0">yes</option>
+                    <option value="1">no</option>
+                </select><br><br>
+                <select title="n" name="pedal_edema"required>
+                    <option value="" disabled selected hidden>select pedal edema or not..</option>
+                    <option value="0">yes</option>
+                    <option value="1">no</option>
+                </select><br><br>
+
+                <input title="b" type="submit" value="prediction"/>
+            </center>
+        </form>
+    </body>
+</html>
