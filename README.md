@@ -6,10 +6,15 @@
   
  # Team ID : PNT2022TMID36181
  # Team Size : 5
+ 
  👉 # Team Leader : Sowthami M
+ 
  👉 # Team member : Pavithra B
+ 
  👉# Team member : Pooja P # Team member : Jenifer p
+ 
  👉# Team member : Ashwini S
+ 
  # Technical architecture
  ![image](https://user-images.githubusercontent.com/113594896/202364580-61b96baa-1fe1-4c83-993e-4a12c1254e8a.png)
 # Project Objectives
