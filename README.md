@@ -28,6 +28,11 @@
      5,You will be able to know how to find the accuracy of the model.
      6,You will be able to Build web applications using Flask
      7,You will be able to know how to build a web application using the Flask framework.
- # Final output     
+ # Final output 
+ # Prediction result 1
+ ![image](https://user-images.githubusercontent.com/113626662/202672900-3366a31d-27a0-4626-807b-c37d7b96328b.png)
+ # Prediction result 2
+![image](https://user-images.githubusercontent.com/113626662/202673037-1f6fcbbe-0380-48b7-86b3-2be5c4bdd201.png)
+
      
 
